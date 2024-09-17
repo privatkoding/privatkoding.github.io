@@ -1,2 +1,2 @@
-# abdanexpodev.github.io
-AbdanExpoDev
+# privatkoding.github.io
+AbdanDev (Privat Koding)
