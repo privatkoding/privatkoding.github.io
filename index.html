@@ -1,34 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AbdanExpoDev Store</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <header>
-        <h1>Welcome to AbdanExpoDev Store</h1>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privat Koding One-on-One</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Belajar Ngoding One-on-One</h1>
+      <p>Privat Online Intensif: Fullstack JavaScript (React & Express.js)</p>
+      <a href="#daftar" class="btn-primary">Daftar Sekarang</a>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Products</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="products">
-            <h2>Our Products</h2>
-            <div class="product-grid" id="product-grid">
-                <!-- Products will be dynamically inserted here -->
-            </div>
-        </section>
-    </main>
-    <script src="scripts.js"></script>
-</body>
 
+    <section class="why">
+      <h2>Kenapa Pilih Program Ini?</h2>
+      <ul>
+        <li>✅ Belajar personal 1-on-1</li>
+        <li>✅ Kurikulum fleksibel & sesuai kebutuhanmu</li>
+        <li>✅ Live session via Zoom/Meet</li>
+        <li>✅ Studi kasus & project real</li>
+      </ul>
+    </section>
+
+    <section class="materi">
+      <h2>Apa yang Akan Dipelajari</h2>
+      <div class="materi-list">
+        <div>
+          <h3>Frontend (React.js)</h3>
+          <ul>
+            <li>Component, Props, State</li>
+            <li>React Router</li>
+            <li>Axios & Fetch API</li>
+            <li>State Management</li>
+            <li>Etc.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Backend (Express.js)</h3>
+          <ul>
+            <li>Routing & Middleware</li>
+            <li>CRUD API</li>
+            <li>MongoDB / PostgreSQL</li>
+            <li>Auth dengan JWT</li>
+            <li>Etc.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="jadwal">
+      <h2>Jadwal Belajar</h2>
+      <p>Durasi sesi: 60–120 menit</p>
+      <p>Frekuensi: 2–3x per minggu (fleksibel)</p>
+      <p>Program: 4 minggu atau 8 minggu (bisa custom)</p>
+    </section>
+
+    <section class="harga">
+      <h2>Biaya Privat</h2>
+      <p><strong>Mulai dari Rp 100.000 / jam</strong></p>
+      <a href="#daftar" class="btn-primary">Konsultasi Gratis Sekarang</a>
+    </section>
+
+    <section class="tentang">
+      <h2>Tentang Pengajar</h2>
+      <p>
+        Halo! Saya <a href="https://www.linkedin.com/in/abdanzamzam/" target="_blank" rel="noopener noreferrer">Abdan Zam Zam Ramadhan</a>, seorang developer dan mentor dengan pengalaman
+        mengajar dan membangun berbagai project menggunakan React & Express.js.
+      </p>
+      <p>
+        Tech Stack: JavaScript, Node.js, React, Express.js, PostgreSQL/MongoDB
+      </p>
+    </section>
+
+    <footer id="daftar">
+      <h2>Daftar Sekarang</h2>
+      <p>
+        Kirim pesan via WhatsApp:
+        <a href="https://wa.me/6285158127726" target="_blank">Klik di sini</a>
+      </p>
+    </footer>
+  </body>
 </html>
